@@ -1,7 +1,7 @@
 import React from "react";
 
 const Luz = ({ color, active, onClick }) => {
-    const brightness =
+    const brillo =
         active ? `0 0 25px ${color}, 0 0 40px ${color}` : "none";
 
     return (
@@ -13,7 +13,7 @@ const Luz = ({ color, active, onClick }) => {
                 height: "80px",
                 backgroundColor: active ? color : "black",
                 cursor: "pointer",
-                boxShadow: brightness,
+                boxShadow: brillo,
                 transition: "0.2s"
             }}
         ></div>

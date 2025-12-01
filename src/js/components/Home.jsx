@@ -1,32 +1,22 @@
 import React from "react";
 import Semaforo from "./Semaforo.jsx";
+import Footer from "./Footer.jsx";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import perfilImage from "../../img/foto_perfil.jpg";
 
 //create your first component
 const Home = () => {
 	return (
 		<div className="text-center">
-            
 
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
+				<img src={perfilImage} className="rounded-circle my-5"/>   
 
 			<div className="d-flex justify-content-center my-4">
 				<Semaforo />
 			</div>
 
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+			<Footer/>
 		</div>
 	);
 };

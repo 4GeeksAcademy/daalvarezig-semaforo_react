@@ -1,4 +1,5 @@
 import React from "react";
+import Semaforo from "./Semaforo.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -13,6 +14,11 @@ const Home = () => {
 			<p>
 				<img src={rigoImage} />
 			</p>
+
+			<div className="d-flex justify-content-center my-4">
+				<Semaforo />
+			</div>
+
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working...
 			</a>

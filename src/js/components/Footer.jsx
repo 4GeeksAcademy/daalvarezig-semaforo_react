@@ -10,7 +10,7 @@ const Footer = () => {
          }}
          > 
          <p className="m-0 fw-bold">
-            <span className="brand">iT@pyz0n-e</span> © 2025
+            <span className="brand">by iT@py</span> © 2025
             </p>
             </footer>
         );

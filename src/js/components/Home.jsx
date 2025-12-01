@@ -12,7 +12,7 @@ const Home = () => {
 
 				<img src={perfilImage} className="rounded-circle my-5"/>   
 
-			<div className="d-flex justify-content-center my-4">
+			<div className="d-flex justify-content-center mt-4">
 				<Semaforo />
 			</div>
 
